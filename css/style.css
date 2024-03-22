@@ -1,0 +1,392 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #100E14;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+#header {
+    padding: 20px 0;
+    background: white;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.header a {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#hero {
+    padding-top: 80px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero h1 {
+    color: #FFFFFF;
+    font-size: 63px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hero p {
+    color: #FFFFFFB2;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hero button {
+    width: 281px;
+    height: 66px;
+    background: #FF4343;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 23px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.hero h6 {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.hero-images {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 50px 0;
+}
+
+.hero-img {
+    position: absolute;
+    right: 181px;
+}
+
+.shoot {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.shoot-right {
+    position: relative;
+    margin-left: 100px;
+}
+
+.shoot-img {
+    position: absolute;
+    left: 310px;
+}
+
+.shoot-left h1 {
+color: #FFFFFF;
+font-size: 58px;
+font-weight: 400;
+}
+
+.shoot-left p {
+    color: #FFFFFF80;
+    font-size: 26px;
+    padding-top: 30px;
+    font-weight: 400;
+}
+
+#enrich {
+    padding: 100px 0;
+}
+
+.enrich {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.enrich-left {
+    position: relative;
+}
+
+.enrich-img {
+    position: absolute;
+}
+
+.enrich-right h1 {
+    color: #FFFFFF;
+    font-size: 58px;
+    font-weight: 400;
+}
+
+.enrich-right p {
+    padding-top: 30px;
+    color: #FFFFFF80;
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.enrich-right span {
+    color: white;
+}
+
+.add-block {
+    width: 571px;
+    height: 366px;
+    border-radius: 25px;
+    background: #1a1919;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.add {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add-left h1 {
+    color: #FFFFFF;
+    font-size: 54px;
+    font-weight: 400;
+}
+
+.add-left p {
+    color: #FFFFFF80;
+    font-size: 27px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.add-left span {
+    color: white;
+}
+
+.block {
+    width: 80%;
+    height: 90px;
+    border-radius: 12px;
+    background: #000000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pink {
+    width: 90px;
+    height: 50px;
+    border-radius: 30px;
+    background: #f50606;
+}
+
+.block ion-icon {
+    font-size: 26px;
+}
+
+.block h4 {
+
+}
+
+.social-block {
+    width: 562px;
+    height: 350px;
+    border-radius: 25px;
+    background: #1a1919;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-icons {
+    display: flex;
+    align-items: start;
+}
+
+.social-icons ion-icon {
+    color: white;
+    font-size: 28px;
+    padding: 10px 10px 10px 16px;
+}
+
+.youtube {
+    width: 70px;
+    height: 270px;
+    background: red;
+    border-radius: 15px 0 0 0;
+    margin-left: -10px;
+    transition: 0.3s;
+}
+
+.youtube:hover {
+    transform: translateY(-15px);
+}
+
+.instagram {
+    width: 70px;
+    height: 270px;
+    background: rgb(235, 27, 96);
+    border-radius: 15px 0 0 0;
+    margin-left: -10px;
+    transition: 0.3s;
+}
+
+.instagram:hover {
+    transform: translateY(-15px);
+}
+
+.twitch{
+    width: 70px;
+    height: 270px;
+    background: rgb(197, 75, 185);
+    border-radius: 15px 0 0 0;
+    margin-left: -10px;
+    transition: 0.3s;
+}
+
+.twitch:hover {
+    transform: translateY(-15px);
+}
+
+.tiktok {
+    width: 70px;
+    height: 270px;
+    background:black;
+    border-radius: 15px 0 0 0;
+    margin-left: -10px;
+    transition: 0.3s;
+}
+
+.tiktok:hover {
+    transform: translateY(-15px);
+}
+
+.twitter {
+    width: 70px;
+    height: 270px;
+    background:rgb(58, 127, 173);
+    border-radius: 15px 0 0 0;
+    margin-left: -10px;
+    transition: 0.3s;
+}
+
+.twitter:hover {
+    transform: translateY(-15px);
+}
+
+.linkedin {
+    width: 70px;
+    height: 270px;
+    background:rgb(24, 36, 60);
+    border-radius: 15px 0 0 0;
+    margin-left: -10px;
+    transition: 0.3s;
+}
+
+.linkedin:hover {
+    transform: translateY(-15px);
+}
+
+.email {
+    width: 70px;
+    height: 270px;
+    background:rgb(28, 66, 68);
+    border-radius: 15px 0 0 0;
+    margin-left: -10px;
+    transition: 0.3s;
+}
+
+.email:hover {
+    transform: translateY(-15px);
+}
+
+.whatsApp {
+    width: 70px;
+    height: 270px;
+    background:rgb(46, 172, 50);
+    border-radius: 15px 0 15px 0;
+    margin-left: -10px;
+    transition: 0.3s;
+}
+
+.whatsApp:hover {
+    transform: translateY(-15px);
+}
+
+.social-info h1 {
+    color: #FFFFFF;
+    font-size: 58px;
+    font-weight: 400;
+}
+
+.social-info p {
+    color: #FFFFFF80;
+    font-size: 25px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.social-info span {
+    color: white;
+}
+#social {
+    padding: 100px 0;
+}
+
+.fa-twitter {
+    font-size: 32px;
+    padding: 10px;
+}
+
